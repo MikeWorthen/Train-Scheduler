@@ -3,8 +3,8 @@
 <head>
   	<meta charset="UTF-8">
   	<title>Trains! Trains! Trains!</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Sigmar+One|Special+Elite" rel="stylesheet">
 	<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
@@ -15,15 +15,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div class="container">
+	<div class="container mt-3">
 		<div class="jumbotron text-center bg-danger text-white">
 			<h1>Trains! Trains! Trains!</h1>
 		</div>
 
 		<!-- "Current Train Schedule" Table -->
-
+<div class="container mb-4">
 		<div class="panel panel-success text-white">
-			<div class="panel-heading bg-dark"><h3>Current Train Schedule</h3></div>
+			<div class="panel-heading bg-dark"><h3 class="p-3">Current Train Schedule</h3></div>
 			<div class="panel-body">
 				<table class="table">
 					<thead>
@@ -43,12 +43,12 @@
 				</table>
 			</div>
 		</div>
-
+  
 		<!-- Form for adding a new train -->
 
 		<div class="panel panel-success text-dark">
 			<div class="panel-heading bg-dark text-white">
-				<h3>Add Train</h3>
+				<h3 class="p-3">Add Train</h3>
 			</div>
 
 			<div class="panel-body">
@@ -76,7 +76,8 @@
 					<button type="submit" id="add-train" class="btn btn-dark" id="addTrain">Submit</button>
 				</form>
 			</div>
-		</div>
+    </div>
+  </div>
 	</div>
 </body>
 </html>

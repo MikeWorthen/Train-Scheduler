@@ -1,6 +1,12 @@
 $(document).ready(function(){
     var config = {
-        // 
+        apiKey: "AIzaSyBx17kDUagsCiG3kFPEjb6grnI4SHw9nmU",
+        authDomain: "codersbay-dec04.firebaseapp.com",
+        databaseURL: "https://codersbay-dec04.firebaseio.com",
+        projectId: "codersbay-dec04",
+        storageBucket: "codersbay-dec04.appspot.com",
+        messagingSenderId: "961871923217",
+        appId: "1:961871923217:web:fc7326052b494a17"
     };
     firebase.initializeApp(config);
 
